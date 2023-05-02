@@ -1,0 +1,51 @@
+#carhead {
+    font-size: xx-large;
+    color: rgb(255, 0, 225);
+    font-weight: 600;
+}
+
+
+
+.ridepage {
+    background: rgb(172, 229, 252);
+}
+
+Form.Label {
+    font-weight: 400;
+
+}
+
+/* .card:hover {
+    transform: scale(0.9);
+    transition: 0.7s;
+    z-index: -4;
+} */
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 202px;
+    width: 305px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+.card-body:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}

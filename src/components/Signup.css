@@ -1,0 +1,119 @@
+/* Default styles for all screen sizes */
+
+body {
+    background-color: rgb(172, 229, 252);
+}
+
+.main1 {
+    background-color: black;
+    height: 750px;
+    width: 600px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.main1 h2 {
+    color: aliceblue;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+    word-spacing: 10px;
+}
+
+.Username input {
+    width: 400px;
+    height: 40px;
+    margin-left: 90px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.Password input {
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 90px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.login-button {
+    text-align: center;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+button {
+    background-color: #7dce13;
+    height: 50px;
+    width: 200px;
+}
+
+.login-button button {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.forget1 {
+    margin: 20px;
+    padding: 20px;
+}
+
+.box1 a {
+    text-decoration: none;
+    color: rgb(24, 24, 164);
+}
+
+.box1 p {
+    color: white;
+    margin-left: 90px;
+    text-decoration: none;
+}
+
+.box1 p a {
+    text-decoration: none;
+}
+
+.forget1 a {
+    margin-left: 150px;
+    text-decoration: none;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .main1 {
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    .Username input,
+    .Password input {
+        width: 100%;
+        margin-left: 75px;
+    }
+
+    .login-button {
+        margin-top: 20px;
+    }
+
+    .forget1 a {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .main1 {
+        width: 90%;
+    }
+}

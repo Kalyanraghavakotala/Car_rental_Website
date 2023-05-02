@@ -1,0 +1,45 @@
+.contact-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.reach-us-main {
+    background-color: black;
+    width: 80%;
+    max-width: 600px;
+    margin-top: 50px;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reach-us-heading {
+    color: white;
+    text-align: center;
+}
+
+.reach-us-item {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.reach-us-icon {
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.reach-us-link {
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.reach-us-text {
+    color: white;
+    margin: 0;
+    font-size: 25px;
+}

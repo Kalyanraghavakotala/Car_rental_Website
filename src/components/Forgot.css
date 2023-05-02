@@ -1,0 +1,115 @@
+/* Default styles for all screen sizes */
+
+body {
+    background-color: rgb(172, 229, 252);
+}
+
+.main2 {
+    background-color: black;
+    height: 450px;
+    width: 600px;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.main2 h2 {
+    color: aliceblue;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+    word-spacing: 10px;
+}
+
+.Usermail input {
+    width: 400px;
+    height: 40px;
+    margin-left: 90px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.Password1 input {
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 90px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.login-button1 {
+    text-align: center;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+button {
+    background-color: #7dce13;
+    height: 50px;
+    width: 200px;
+}
+
+.login-button1 button {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.forget2 {
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.forget2 a {
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.forget2 .spacer {
+    display: inline-block;
+    width: 120px;
+}
+
+
+@media (max-width: 767px) {
+    .main2 {
+        height: auto;
+        width: 90%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding: 20px;
+        margin-right: 20px;
+    }
+
+    .Usermail input,
+    .Password1 input {
+        width: 350px;
+        margin-left: 30px;
+    }
+
+    .login-button1 button {
+        font-size: 20px;
+        width: 150px;
+        height: 40px;
+    }
+
+    .forget2 a {
+        margin: 10px;
+    }
+
+    .forget2 .spacer {
+        display: inline-block;
+        width: 40px;
+        margin-bottom: 5px;
+    }
+}
