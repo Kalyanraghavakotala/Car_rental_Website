@@ -16,7 +16,7 @@ function Login() {
         <div className='body'>
           <div className='main2'>
             <form>
-              <h2><b>Login</b></h2><br></br>
+              <h2><b>User Login</b></h2><br></br>
               <div>
                 <label className='Username1'>
                   <input type="text" name='username' placeholder="Enter Your Name" className="name" required />

@@ -15,6 +15,10 @@ import Contactl from './components/Contactl.js';
 import Homel from './components/Homel.js';
 import Aboutus from './components/Aboutus.js';
 import Forgot from './components/Forgot.js';
+import Alogin from './components/Alogin.js';
+import AHome from './components/AHome.js';
+import Ologin from './components/Ologin.js';
+import OHome from './components/OHome.js';
 // import Start from './components/Start.js';
 
 function App() {
@@ -34,6 +38,12 @@ function App() {
         <Route path='/booking' element={<Bookings />} />
         <Route path='/About' element={<Aboutus />} />
         <Route path='/forgot' element={<Forgot />} />
+        <Route path='/alogin' element={<Alogin />} />
+        <Route path='/ahome' element={<AHome />} />
+
+        <Route path='/ologin' element={<Ologin />} />
+        <Route path='/ohome' element={<OHome />} />
+
 
 
       </Routes>

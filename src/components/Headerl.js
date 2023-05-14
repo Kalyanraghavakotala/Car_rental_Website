@@ -16,8 +16,9 @@ function Headerl() {
             <nav>
                 <ul>
                     <li><a href="/">HOME</a></li>
-                    {/* <li><a href="/Cars">CARS</a></li> */}
-                    <li><a href="/Login">LOGIN</a></li>
+                    <li><a href="/alogin">ADMIN LOGIN</a></li>
+                    <li><a href="/ologin">OWNER LOGIN</a></li>
+                    <li><a href="/Login">USER LOGIN</a></li>
                     <li><a href="/SignUp">SIGN UP</a></li>
                     <li><a href="/Contactl">CONTACT US</a></li>
                 </ul>
